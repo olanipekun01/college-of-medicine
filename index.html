@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Get information about achievers on going addmission process for 2024/2025 admissions, check out programmes offered at Achievers University">
+    <Meta name="keywords" content="achievers university, achievers university owo, admissions, application, screening, post utme">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="achieverslogo.svg" type="image/x-icon"> 
+    <title>College of Medicine and Surgery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+    </style>
+</head>
+<body class="min-h-screen bg-white">
+    <header class="bg-[#FFA500]">
+        <div class="container mx-auto px-4">
+          <div class="flex items-center justify-between h-20">
+            <div class="flex items-center space-x-4">
+              <Image
+                src="/placeholder.svg?height=60&width=200"
+                alt="Faculty Logo"
+                width={200}
+                height={60}
+                class="h-12 w-auto"
+              />
+            </div>
+            <nav class="hidden md:flex items-center space-x-8">
+              <Link href="/" class="text-white font-medium hover:text-orange-100">HOME</Link>
+              <Link href="/history" class="text-white font-medium hover:text-orange-100">HISTORY</Link>
+              <div class="relative group">
+                <Link href="/departments" class="text-white font-medium hover:text-orange-100">
+                  DEPARTMENT
+                </Link>
+              </div>
+              <div class="relative group">
+                <Link href="/deans-office" class="text-white font-medium hover:text-orange-100">
+                  DEAN'S OFFICE
+                </Link>
+              </div>
+            </nav>
+            <Button variant="ghost" class="text-white" size="icon">
+              <Search class="h-5 w-5" />
+            </Button>
+          </div>
+        </div>
+      </header>
+
+      
+      <div class="relative min-h-[400px] bg-gradient-to-r from-blue-900/90 to-blue-800/90">
+        <div class="absolute inset-0 bg-[url('/placeholder.svg?height=400&width=1920')] bg-cover bg-center mix-blend-overlay" />
+        <div class="container mx-auto px-4 h-full flex flex-col items-center justify-center text-center text-white relative z-10">
+          <Image
+            src="/placeholder.svg?height=100&width=100"
+            alt="University Logo"
+            <!-- width={100} -->
+            <!-- height={100} -->
+            class="mb-6"
+          />
+          <h1 class="text-4xl md:text-5xl font-bold mb-4">
+            FACULTY OF
+          </h1>
+          <h2 class="text-3xl md:text-4xl font-bold">
+            ECONOMICS AND MANAGEMENT SCIENCES
+          </h2>
+        </div>
+      </div>
+
+     
+      <section class="py-16">
+        <div class="container mx-auto px-4">
+          <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h3 class="text-sm font-semibold text-[#FFA500] mb-2">ABOUT THE FACULTY</h3>
+              <h2 class="text-3xl font-bold text-gray-900 mb-6">Welcome</h2>
+              <div class="prose max-w-none">
+                <p class="text-gray-600">
+                  The Faculty of Economics and Management Sciences was created to cater for the demands of stakeholders who are in favour of the departure from the traditional economics education and training. Our programs encompass all aspects of management related areas of economics, business administration, banking and finance, and accountancy as well as marketing.
+                </p>
+                <p class="text-gray-600 mt-4">
+                  With state-of-the-art learning environments and strong postgraduate programmes, the Faculty looks into a very bright future with great potentials of becoming a world class Faculty in the arena of Economics and Management Sciences.
+                </p>
+              </div>
+            </div>
+            <div class="relative">
+              <Image
+                src="/placeholder.svg?height=400&width=600"
+                alt="Faculty Building"
+                width={600}
+                height={400}
+                class="rounded-lg shadow-lg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+          <div class="grid md:grid-cols-3 gap-8">
+            <div>
+              <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+              <ul class="space-y-2">
+                <li><Link href="/programs" class="hover:text-[#FFA500]">Programs</Link></li>
+                <li><Link href="/admission" class="hover:text-[#FFA500]">Admission</Link></li>
+                <li><Link href="/research" class="hover:text-[#FFA500]">Research</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold mb-4">Contact</h3>
+              <ul class="space-y-2">
+                <li>Email: info@faculty.edu</li>
+                <li>Phone: +234 (0) 000 0000</li>
+                <li>Location: University Campus</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+              <div class="flex space-x-4">
+                <Link href="#" class="hover:text-[#FFA500]">Facebook</Link>
+                <Link href="#" class="hover:text-[#FFA500]">Twitter</Link>
+                <Link href="#" class="hover:text-[#FFA500]">LinkedIn</Link>
+              </div>
+            </div>
+          </div>
+          <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+            <p>&copy; {new Date().getFullYear()} Faculty of Economics and Management Sciences. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    
+</body>
+</html>
