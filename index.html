@@ -9,11 +9,11 @@
 <body class="min-h-screen bg-white">
 
   <!-- Top Bar -->
-  <div class="bg-[#FFA500] text-white py-2">
+  <div class="bg-[#4A0000] text-white py-2">
     <div class="container mx-auto px-4 flex justify-between items-center">
       <div class="flex items-center space-x-4">
         <span class="flex items-center"><svg class="h-4 w-4 mr-2"><!-- Phone icon SVG --></svg> +234 (0) 000 0000</span>
-        <span class="flex items-center"><svg class="h-4 w-4 mr-2"><!-- Mail icon SVG --></svg> info@faculty.edu</span>
+        <span class="flex items-center"><svg class="h-4 w-4 mr-2"><!-- Mail icon SVG --></svg> info@achievers.edu.ng</span>
       </div>
       <div class="flex items-center space-x-4">
         <a href="#" class="hover:text-orange-200"><svg class="h-4 w-4"><!-- Facebook icon SVG --></svg></a>
@@ -28,19 +28,19 @@
     <div class="container mx-auto px-4">
       <div class="flex items-center justify-between h-20">
         <div class="flex items-center  w-[90px] ">
-            <div class="text-[#FFA500] font-bold text-[16px] w-[180px] leading-none text-center">
+            <div class="text-[#4A0000] font-bold text-[16px] w-[180px] leading-none text-center">
                 College <br />of<br /> Medicine
               </div>
           <img src="/assets/achieverslogo.png" alt="Faculty Logo" class="h-12 w-auto">
           
         </div>
         <nav class="hidden md:flex items-center space-x-8">
-          <a href="/" class="text-gray-800 font-medium hover:text-[#FFA500]">HOME</a>
-          <a href="/about" class="text-gray-800 font-medium hover:text-[#FFA500]">ABOUT</a>
-          <a href="/departments" class="text-gray-800 font-medium hover:text-[#FFA500]">DEPARTMENTS</a>
-          <a href="/programs" class="text-gray-800 font-medium hover:text-[#FFA500]">PROGRAMS</a>
-          <a href="/research" class="text-gray-800 font-medium hover:text-[#FFA500]">RESEARCH</a>
-          <a href="/contact" class="text-gray-800 font-medium hover:text-[#FFA500]">CONTACT</a>
+          <a href="/" class="text-gray-800 font-medium hover:text-[#926868]">HOME</a>
+          <a href="./pages/aboutUs.html" class="text-gray-800 font-medium hover:text-[#926868]">ABOUT</a>
+          <a href="https://achievers.edu.ng/undergraduate_programmes/" class="text-gray-800 font-medium hover:text-[#926868]">Admission</a>
+          <a href="/pages/principalofficers.html" class="text-gray-800 font-medium hover:text-[#926868]">Principal Officiers</a>
+          <a href="/pages/staff.html" class="text-gray-800 font-medium hover:text-[#926868]">Staff</a>
+          <a href="./pages/contact.html" class="text-gray-800 font-medium hover:text-[#926868]">CONTACT</a>
         </nav>
         <button class="text-gray-800"><svg class="h-5 w-5"><!-- Search icon SVG --></svg></button>
       </div>
@@ -48,15 +48,16 @@
   </header>
 
   <!-- Hero Section -->
-  <div class="relative h-[500px] bg-gradient-to-r from-blue-900/90 to-blue-800/90">
-    <div class="absolute inset-0 bg-[url('./assets/achieverslogo.png?height=500&width=1920')] bg-cover bg-center mix-blend-overlay"></div>
+  <!-- <div class="relative h-[500px] bg-gradient-to-r from-blue-900/90 to-blue-800/90"> -->
+    <div class="relative h-[500px] bg-gradient-to-r from-[#5c1d1d] to-[#926868]"> 
+    <div class="absolute inset-0 bg-[url('./assets/hero_home_bg.jpg?height=500&width=1920')] bg-cover bg-center mix-blend-overlay"></div>
     <div class="container mx-auto px-4 h-full flex flex-col items-center justify-center text-center text-white relative z-10">
-      <img src="/assets/achieverslogo.png?height=100&width=100" alt="University Logo" class="mb-6">
+      <img src="/assets/achieverslogo.png?height=80&width=80" alt="University Logo" class="mb-6">
       <h1 class="text-4xl md:text-5xl font-bold mb-4">
         College of Medicine
       </h1>
       <p class="text-xl mb-8">Train skilled, globally competent medical doctors</p>
-      <a href="/programs" class="bg-[#FFA500] hover:bg-orange-600 text-white py-2 px-4 rounded">Explore Our Programs</a>
+      <a href="#" class="bg-[#4A0000] hover:bg-[#926868] text-white py-2 px-4 rounded">Explore Our Programs</a>
     </div>
   </div>
 
@@ -64,8 +65,18 @@
   <section class="py-12 bg-gray-100">
     <div class="container mx-auto px-4">
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <a href="/admission" class="flex items-center justify-between p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
+        <a href="https://achievers.edu.ng/undergraduate_programmes/" class="flex items-center justify-between p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
           <span class="font-medium">Admission</span>
+          <svg class="h-5 w-5 text-[#FFA500]"><!-- Chevron icon SVG --></svg>
+        </a>
+
+        <a href="./pages/principalofficers.html" class="flex items-center justify-between p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <span class="font-medium">Principal Officers</span>
+          <svg class="h-5 w-5 text-[#FFA500]"><!-- Chevron icon SVG --></svg>
+        </a>
+
+        <a href="./pages/staff.html" class="flex items-center justify-between p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <span class="font-medium">Staff Directory</span>
           <svg class="h-5 w-5 text-[#FFA500]"><!-- Chevron icon SVG --></svg>
         </a>
         <!-- Repeat similar structure for other links -->
@@ -85,10 +96,10 @@
           <p class="text-gray-600 mb-4">
             Established as part of Achievers University's visionary expansion, the College encompasses three dynamic faculties: Basic Medical Sciences, Basic Clinical Sciences, and Clinical Sciences, offering the prestigious MBBS programme. With robust academic curricula tailored to meet national and international standards, our mission is to train medical doctors capable of addressing healthcare challenges with skill, compassion, and innovation.
           </p>
-          <a href="/about" class="bg-[#FFA500] hover:bg-orange-600 text-white py-2 px-4 rounded">Learn More About Us</a>
+          <a href="./pages/aboutUs.html" class="bg-[#4A0000] hover:bg-[#926868] text-white py-2 px-4 rounded">Learn More About Us</a>
         </div>
         <div class="relative">
-          <img src="/assets/10004.webp" alt="Faculty Building" class="rounded-lg shadow-lg">
+          <img src="/assets/provost_office.jpg" alt="Faculty Building" class="rounded-lg shadow-lg">
         </div>
       </div>
     </div>
@@ -101,25 +112,25 @@
         <div>
           <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
           <ul class="space-y-2">
-            <li><a href="/programs" class="hover:text-[#FFA500]">Programs</a></li>
-            <li><a href="/admission" class="hover:text-[#FFA500]">Admission</a></li>
-            <li><a href="/research" class="hover:text-[#FFA500]">Research</a></li>
+            <li><a href="https://achievers.edu.ng/undergraduate_programmes/" class="hover:text-[#926868]">Admission</a></li>
+            <li><a href="./pages/principalofficers.html" class="hover:text-[#926868]">Principal Officers</a></li>
+            <li><a href="./pages/staff.html" class="hover:text-[#926868]">Staff Directory</a></li>
           </ul>
         </div>
         <div>
           <h3 class="text-lg font-semibold mb-4">Contact</h3>
           <ul class="space-y-2">
-            <li>Email: info@faculty.edu</li>
+            <li>Email: info@achievers.edu.ng</li>
             <li>Phone: +234 (0) 000 0000</li>
-            <li>Location: University Campus</li>
+            <li>KM 1 ldasen/Uteh Road, Owo, Ondo</li>
           </ul>
         </div>
         <div>
           <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
           <div class="flex space-x-4">
-            <a href="#" class="hover:text-[#FFA500]">Facebook</a>
-            <a href="#" class="hover:text-[#FFA500]">Twitter</a>
-            <a href="#" class="hover:text-[#FFA500]">LinkedIn</a>
+            <a href="#" class="hover:text-[#926868]">Facebook</a>
+            <a href="#" class="hover:text-[#926868]">Twitter</a>
+            <a href="#" class="hover:text-[#926868]">LinkedIn</a>
           </div>
         </div>
       </div>
